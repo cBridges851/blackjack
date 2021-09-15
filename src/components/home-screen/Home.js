@@ -1,11 +1,15 @@
 import React from "react";
-import { Text } from "react-native"
+import { Text, View } from "react-native"
+import HiScore from "./HiScore";
 import HomeScreenHeader from "./HomeScreenHeader";
 
 export default class Home extends React.Component {
     render() {
         return (
-            <HomeScreenHeader></HomeScreenHeader>
+            <View>
+                <HomeScreenHeader></HomeScreenHeader>
+                <HiScore></HiScore>
+            </View>
         )
     }
 } 

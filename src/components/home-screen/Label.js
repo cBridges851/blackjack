@@ -18,8 +18,8 @@ const styles = StyleSheet.create({
         width: 100,
         borderRadius: 5,
         paddingVertical: 8,
-        marginLeft: 250,
-        marginTop: 200,
+        marginLeft: 240,
+        marginTop: 205,
         position: "absolute",
         transform: [
             {

@@ -5,7 +5,7 @@ export default class Label extends React.Component {
     render() {
         return(
             <View style={styles.label}>
-                <Text style={styles.labelText}>AKA 21s</Text>
+                <Text style={styles.labelText}>{this.props.labelText}</Text>
             </View>
         )
     }

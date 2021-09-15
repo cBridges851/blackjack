@@ -7,7 +7,7 @@ export default class HomeScreenHeader extends React.Component {
         return(
             <View>
                 <Text style={styles.blackjack}>Blackjack</Text>
-                <Label></Label>
+                <Label labelText="AKA 21s"></Label>
             </View>
         )
     }

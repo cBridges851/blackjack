@@ -18,14 +18,14 @@ const styles = StyleSheet.create({
         width: 300,
         borderRadius: 15,
         paddingVertical: 5,
-        height: 150,
+        height: 130,
         justifyContent: 'center',
         alignSelf:"center",
         marginTop: 100
     },
     hiscoreText: {
         color: "#EFEFEF",
-        fontSize: 40,
+        fontSize: 30,
         textAlign: "center",
         fontWeight: "500"
     }

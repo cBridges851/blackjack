@@ -5,7 +5,9 @@ export default class PrimaryButton extends React.Component {
     render() {
         return(
             <View>
-                <TouchableOpacity style={styles.primaryButton}>
+                <TouchableOpacity 
+                    style={styles.primaryButton}
+                    onPress={this.props.onPress}>
                     <Text style={styles.primaryButtonText}>
                         {this.props.buttonName}
                     </Text>
